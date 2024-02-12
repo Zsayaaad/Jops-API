@@ -1,8 +1,6 @@
-#### Setup
+# Jobs-API - Overview
 
-```bash
-npm install && npm start
-```
+## Combine authentication knowledge with CRUD functionality to get an API where users can log in and manage their job search
 
 #### Database Connection
 
