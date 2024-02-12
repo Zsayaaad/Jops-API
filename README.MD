@@ -44,26 +44,13 @@ Email Validation Regex
 
 #### Mongoose Errors
 
-- Validation Errors ==> If the user does not provide one of the values
+- Validation Errors
 - Duplicate (Email)
 - Cast Error
 
 #### Security
 
-- helmet ==> Sets various http headers to prevent possible attacks
-- cors ==> ensures that our API is accessible from different domains
-- xss-clean ==> sanitize the user input(ptotect us from attacks)
-- express-rate-limit ==> limit the amount of requests that user can make
-
-Swagger UI
-
-```yaml
-/jobs/{id}:
-  parameters:
-    - in: path
-      name: id
-      schema:
-        type: string
-      required: true
-      description: the job id
-```
+- helmet
+- cors
+- xss-clean
+- express-rate-limit
