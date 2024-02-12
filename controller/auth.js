@@ -28,7 +28,7 @@ const login = async (req, res) => {
   const isPassCorrect = await user.comparePasswords(password);
   if (!isPassCorrect) {
     throw new UnauthenticatedError(
-      'User not found. Please check your credentials'
+      'User not found. Please check your credentials.'
     );
   }
 
